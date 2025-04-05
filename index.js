@@ -30,3 +30,6 @@ api.listenMqtt((err, event) => {
     }
   }
 });
+
+const sleepCommand = require("./commands/sleep.js");
+if (sleepCommand.checkSleep && sleepCommand.checkSleep()) return;
