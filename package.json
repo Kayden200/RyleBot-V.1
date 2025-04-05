@@ -1,0 +1,21 @@
+{
+  "name": "Ryle_Bot",
+  "version": "1.0.0",
+  "description": "Igop ko talaga",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "facebook",
+    "chatbot",
+    "messenger",
+    "goatbot",
+    "fca-unofficial"
+  ],
+  "author": "Ryle",
+  "license": "MIT",
+  "dependencies": {
+    "fca-unofficial": "^1.0.0"
+  }
+}
